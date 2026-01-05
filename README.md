@@ -1,22 +1,52 @@
-# Sistema Bancário Simples em Python
+# 🏦 Sistema Bancário Simples em Python <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f40d/512.gif" alt="🐍" width="32" height="32">
 
-Este projeto é um sistema bancário básico desenvolvido em Python, que permite realizar operações comuns como depósitos, saques e consultar o extrato. O sistema foi pensado para praticar conceitos fundamentais de programação, manipulação de dados e lógica condicional.
+Este projeto é um **sistema bancário básico desenvolvido em Python**, que permite realizar operações comuns como **depósitos, saques e consulta de extrato**.  
+O sistema foi criado com foco em **praticar conceitos fundamentais de programação**, como **lógica condicional, manipulação de dados e controle de fluxo**.
 
-## Objetivo
+---
 
-O principal objetivo deste sistema é oferecer uma aplicação simples para controle de saldo bancário, incluindo limites para saques e número máximo de saques diários, além de registrar todas as movimentações realizadas pelo usuário.
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3af/512.gif" alt="🎯" width="32" height="32"> Objetivo 
 
-## Funcionalidades
+O principal objetivo deste sistema é oferecer uma **aplicação simples para controle de saldo bancário**, incluindo:
 
-- Cadastro do titular com nome e CPF;
-- Realização de depósitos com validação de valores;
-- Realização de saques com validação de saldo, limite e quantidade máxima diária;
-- Consulta de extrato detalhado, mostrando todas as movimentações e saldo atual;
-- Interface em terminal para fácil interação com o usuário.
+- 💸 Limite máximo de saque  
+- 📉 Quantidade máxima de saques diários  
+- 🧾 Registro completo de todas as movimentações  
 
-## Tecnologias Utilizadas
+---
 
-- Linguagem Python 3.x
-- Entrada e saída via terminal (input/output)
-- Manipulação de strings para registro do extrato
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.gif" alt="⚙" width="32" height="32"> Funcionalidades
 
+- 👤 **Cadastro do titular** (nome e CPF)  
+- 💰 **Depósitos** com validação de valores  
+- 🏧 **Saques** com validação de:
+  - saldo disponível  
+  - limite por saque  
+  - quantidade máxima diária  
+- 📊 **Consulta de extrato detalhado**, exibindo todas as movimentações e o saldo atual  
+- 🖥️ **Interface em terminal (CLI)** para fácil interação com o usuário  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f40d/512.gif" alt="🐍" width="32" height="32"> **Python 3.x**  
+- ⌨️ **Entrada e saída via terminal** (`input` / `print`)  
+- 🧠 **Lógica condicional e estruturas de controle**  
+- 🧾 **Manipulação de strings** para registro do extrato  
+
+---
+
+## ▶️ Como Executar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/RafaelApolinario90/Sistema_Bancario_Simples_em_Python.git
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd Sistema_Bancario_Simples_em_Python
+
+3. Execute o programa:
+   ```bash
+   python sistema_bancario.py
